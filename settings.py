@@ -8,7 +8,8 @@ import os
 # Activate django-dbindexer for the default database
 DATABASES['default'] = {'ENGINE': 'dbindexer', 'TARGET': DATABASES['default']}
 AUTOLOAD_SITECONF = 'indexes'
-ALLOWED_HOSTS = ('.allaboutpython0.appspot.com',)
+
+ALLOWED_HOSTS = ('.jitsin0.appspot.com',)
 
 SECRET_KEY = '=r-$b*8hglm+858&9t043hlm6-&6-3d3vfc4((7yd0dbrakhvi'
 
