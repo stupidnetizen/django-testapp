@@ -1,8 +1,6 @@
 .DS_Store
 *.pyc
 .gaedata
-index.yaml
-app.yaml
 
 django
 djangotoolbox
